@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.bingo-container {
+  & .picked-number {
+    font-size: 50px;
+  }
+
+  & .bingo-numbers {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    & .number {
+      display: inline-block;
+      font-size: 20px;
+      padding: 10px 6px;
+    }
+  }
+}
+
